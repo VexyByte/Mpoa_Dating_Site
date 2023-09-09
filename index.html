@@ -3,36 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WELCOME TO ONLINE DATING SITE</title>
-
-    <link rel="stlesheet" href="main.css">
+    <title>M-Poa Dating Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   <script>
+      $(function() {
+         $("#includeHtml").load("header.html");
+      });
+   </script>
 </head>
 <body>
+    <div id="layout">
+      <div id="includeHtml"></div>
+          <div id="body_container">
+            <div id="left_container">
+                <div class="latest_profile">
+                  <h2>Latest Profiles</h2>
+                  <div class="detail">
+                    <div class="photo"><a href="#"><img src="images/pic_2.gif" alt="" /></a></div>
+                    <div class="containt">
+                      <p>Name: <span>Angelina Mwangi</span><br />
+                        Age: <span>20 yrs</span><br />
+                        Location: <span>Kayole</span><br />
+                        Bio: <span>Hi, I am Angelina And I am looking foward to have a 30yrs old Chocolate Man.</span></p>
+                      <span class="know_more"><a href="#">Know more</a></span></div>
+                  </div>
+                  <div class="detail last">
+                    <div class="photo"><a href="#"><img src="images/pic_3.gif" alt="" /></a></div>
+                    <div class="containt">
+                      <p>Name: <span>Daniel Kivoi</span><br />
+                        Age: <span>29 yrs</span><br />
+                        Location: <span>Malindi</span><br />
+                        Bio: <span>Hi, I am Dan And I am looking foward having my match here</span></p>
+                      <span class="know_more"><a href="#">Know more</a></span></div>
+                  </div>
+                  <div class="find_more">
+                    <p><a href="#">Find more profiles</a></p>
+                  </div>
+                </div>
+              </div>
+              <div id="right_container">
+                <div class="top_containt">
+                  <h2>Welcome to M-Poa Dating Site</h2>
+                  <p>M-Poa Dating site is a site mainly developed to help you find the 
+                    perfect match for you. We are dedicated in providing you with the love
+                    of your life at a press of a button. <b>Find Your Perfect Match Today!!</b>
+                  </p>
+                </div>
+                <div class="bottom_containt">
+                  <h2>Don’t Stay Alone!</h2>
+                  <ul>
+                    <li>Find Your Perfect Match Online.</li>
+                    <li class="b">Chat With Your Partner Via M-Poa Online.</li>
+                    <li class="c">Arrange For Your Meeting And Have A Date & A Stay.</li>
+                  </ul>
+                </div>
 
-    <div class="slider">
-        <figure>
-           <div class="slide">
-                <h1>LOVE</h1>
-                <img src="love one.jpeg" alt="">
-            </div>
-            <div class="slide">
-                <h1>LOVE</h1>
-                <img src="love two.jpeg" alt="">
-            </div>
-            <div class="slide">
-                <h1>LOVE</h1>
-                <img src="love 3.jpeg" alt="">
-            </div>
-            <div class="slide">
-                <h1>LOVE</h1>
-                <img src="love 4.jpeg" alt="">
-            </div>
-            <div class="slide">
-                <h1>LOVE</h1>
-                <img src="love 5.jpeg" alt="">
-            </div>
-            
-        </figure>
+              </div>
+          </div>
+          <div id="footer_menu">
+            <ul style="color:#FFF;">
+              Copyright (c) M-Poa.com. All rights reserved. Design by Vexy-Byte-team <a href="http://www.vexybyte-team.com" style="color:#FFF; text-decoration:underline;">Tech Company</a>.
+            </ul>
+          </div>
     </div>
 </body>
 </html>
